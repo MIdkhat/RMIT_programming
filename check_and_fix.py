@@ -7,39 +7,9 @@ from qgis.core import (
     QgsProject,
     QgsApplication,
     QgsVectorLayer,
-    QgsRasterLayer,
-    QgsProperty,
-    QgsPropertyCollection,
-    QgsSpatialIndex,
     QgsVectorFileWriter,
-    QgsGeometry,
-    QgsFeature,
-    QgsPointXY,
-    QgsField,
-    QgsExpressionContext,
-    QgsExpressionContextUtils,
 
-    QgsMarkerSymbol,
-    QgsSymbolLayer,
-    QgsExpression,
-    QgsRasterBandStats,
-    QgsSimpleMarkerSymbolLayerBase,
-    QgsCategorizedSymbolRenderer,
-    QgsSingleSymbolRenderer,
-    QgsFillSymbol,
-    QgsSymbol,
-    QgsLineSymbol,
-    QgsRendererRange,
-    QgsRendererCategory,
-    QgsStyle
 )
-from qgis.analysis import QgsGeometryCheckError
-from PyQt5 import QtCore, QtGui, QtWidgets  #### works for pyqt5
-from PyQt5.QtCore import QVariant
-from PyQt5.QtGui import QColor
-
-####################################################################
-# from my_functions import (check_and_fix, load_and_clip, attributes_to_df, add_shape_area)
 
 ####################################################################
 import os

@@ -13,32 +13,24 @@
 
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.core import (QgsProcessing,
-                       QgsFeatureSink,
-                       QgsProcessingException,
-                       QgsProcessingAlgorithm,
-                       QgsProcessingParameterFeatureSource,
-                       QgsProcessingParameterFeatureSink,
-                       QgsProcessingParameterVectorDestination,
-                       QgsProcessingParameterField,
-                       QgsProcessingParameterNumber,
-                       QgsProcessingParameterString,
-                       QgsVectorLayer,
-                       QgsSpatialIndex,
-                       QgsFeature,
-                       QgsPoint,
-                       QgsGeometry,
-                       QgsWkbTypes,
-                       QgsField,
-                       QgsExpression,
-                       QgsExpressionContext,
-                       QgsExpressionContextUtils,
-                       QgsProject
-                       )
+    QgsFeatureSink,
+    QgsProcessingException,
+    QgsProcessingAlgorithm,
+    QgsProcessingParameterFeatureSource,
+    QgsProcessingParameterFeatureSink,
+    QgsProcessingParameterVectorDestination,
+    QgsProcessingParameterNumber,
+    QgsProcessingParameterString,
+    QgsVectorLayer,
+    QgsWkbTypes,
+    QgsField,
+    QgsExpression,
+    QgsExpressionContext,
+    QgsExpressionContextUtils,
+    QgsProject
+)
 
-from qgis.analysis import QgsGeometryCheckError
-from PyQt5 import QtCore, QtGui, QtWidgets  #### works for pyqt5
 from PyQt5.QtCore import QVariant
-from PyQt5.QtGui import QColor
 import pandas as pd
 import os
 from qgis import processing
